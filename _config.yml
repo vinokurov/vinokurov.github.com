@@ -1,2 +1,16 @@
 markdown: rdiscount
 pygments: true
+permalink:      /:categories/:title/
+
+title:          Alexander Vinokurov homepage
+url:            http://alexander-vinokurov.com
+
+
+nav:
+    - name:     Blog
+      url:      /blog/
+
+    - name:     Resume
+      url:      /resume/
+
+

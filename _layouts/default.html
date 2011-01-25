@@ -27,7 +27,9 @@ var WRInitTime=(new Date()).getTime();
 <div class="site">
   <div class="title">
     <a href="/">Alexander Vinokurov</a>
-    <a class="extra" href="/">home</a>
+{% for item in site.nav %}
+    <a class="extra" href="{{ item.url }}">{{ item.name }}</a>
+{% endfor %}
   </div>
   
   {{ content }}
