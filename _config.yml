@@ -1,4 +1,6 @@
-markdown: rdiscount
+maruku:
+  use_tex:    true
+  use_divs:   false
 pygments: true
 permalink:      /:categories/:title/
 
