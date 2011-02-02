@@ -1,0 +1,29 @@
+---
+layout: gh_pages_index
+title: Alexander Vinokurov
+---
+
+<style type="text/css">
+<!--
+img{padding:2px; background:#FFF; border:1px solid #DDD;}
+#vinokurov{float:left; margin-right:20px}
+-->
+</style>
+
+<img id="vinokurov" src="/images/vinokurov.jpg">
+
+*PhD in Physics and Mathematics*
+
+h3. Interests
+
+Theory of light scattering, numerical methods, interstellar dust, nanoplasmonics
+
+
+h3. Affiliations
+
+Senior scientist, "Pulkovo Astronomical Observatory of the Russian Academy of Sciences":http://www.gao.spb.ru
+Senior scientist, "Saint-Petersburg State University of Aerospace Instrumentation":http://guap.ru
+Lecutrer, "Saint-Petersburg State University of Aerospace Instrumentation":http://guap.ru
+
+h3. Projects
+
