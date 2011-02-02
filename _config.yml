@@ -1,4 +1,8 @@
-markdown: rdiscount
+maruku:
+  use_tex:    true
+  use_divs:   false
+  png_dir:    images/latex
+  png_url:    /images/latex/
 pygments: true
 permalink:      /:categories/:title/
 
