@@ -1,7 +1,8 @@
 ---
 layout:   post
 title:    Looking for a postdoc position
-category: research
+category: job
+type:     sticky
 ---
 
 I am looking for a post doctoral research position in a field related with 

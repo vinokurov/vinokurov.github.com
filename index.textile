@@ -12,11 +12,15 @@ img{padding:2px; background:#FFF; border:1px solid #DDD;}
 
 <img id="vinokurov" src="/images/vinokurov.jpg">
 
-*PhD in Physics and Mathematics*
+h3. Dr. A.A.Vinokurov
+
+In 2004 graduated from the St.&nbsp;Petersburg State University, faculty of applied mathematics -- control processes.
+
+In 2007 received a PhD degree in physics and mathematics at the St.&nbsp;Petersburg State University, faculty of physics.
 
 h3. Interests
 
-Theory of light scattering, numerical methods, interstellar dust, nanoplasmonics
+Theory of light scattering, numerical methods, interstellar dust, nanoplasmonics, metamaterials.
 
 
 h3. Affiliations
@@ -27,3 +31,8 @@ Lecutrer, "Saint-Petersburg State University of Aerospace Instrumentation":http:
 
 h3. Projects
 
+h4. Development of modern model of interstellar dust (grants RFBR&nbsp;07-02-00831, RFBR&nbsp;10-02-00593)
+
+h4. ScattPy
+
+"http://scattpy.github.com":http://scattpy.github.com
