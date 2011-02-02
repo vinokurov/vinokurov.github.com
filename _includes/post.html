@@ -1,0 +1,23 @@
+      <li class="hentry post" id="post_777">
+  <h2><a href="{{post.url}}" class="reverse url entry-title" rel="bookmark">{{post.title}}</a> <small></small></h2>
+  <div class="meta">
+    <div class="who_when">
+
+      <!--<img src="https://secure.gravatar.com/avatar/9375a9529679f1b42b567a640d775e7d?s=140&d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="" width="16" height="16"  />-->
+      <span class="author vcard fn"><a href="{{ post.author.url }}">{{ post.author.name }}</a></span>
+      <span class="published" title="2011-01-26T10:43:22-08:00"><a href="{{post.url}}#comments">{{ post.date | date:'%d %b %Y' | replace:'>0','>' }}</a></span>
+      
+    </div>
+    <div class="respond">
+      <a href="{{post.url}}#disqus_thread">0 comments</a>
+    </div>
+
+  </div>
+  <div class="entry-content">
+		{% if detail %}
+			{{ content }}
+		{% else %}
+			{{ post.content }}
+		{% endif %}
+  </div>
+</li>

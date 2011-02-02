@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>{{site.title}}</title>
+    <link href="/css/bundle_common.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/css/bundle_github.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/css/screen.css" media="screen" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    <!--
+      .vinokurov_logo{font-size:200%;color:#444444;text-decoration:none;position:absolute;top:30px;left:15px;}
+      .vinokurov_logo:hover{color:#4183c4;text-decoration:none;}
+    -->
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header" class="basic" style="margin-bottom:20px">
+
+        <div class="site">
+          <a class="vinokurov_logo" href="/">Alexander Vinokurov</a>
+<!-- github pages logo
+          <div class="logo boring">
+            <a href="/"><img src="http://github.com/images/modules/header/logo_pages.png" alt="github pages" /></a>
+          </div>
+-->
+<!-- github logo
+          <a class="logo boring" href="https://github.com/">
+            <img src="/images/modules/header/logov3.png?changed" class="default" alt="github" />
+            <![if !IE]>
+            <img src="/images/modules/header/logov3-hover.png" class="hover" alt="github" />
+
+            <![endif]>
+          </a>
+-->
+
+          <div class="topsearch">
+    <ul class="usernav">
+{% for item in site.nav %}
+      <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+{% endfor %}
+    </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="content" class="site">
+
+
+{{ content }}
+
+
+      </div>
+
+      <div class="push"></div>
+    </div>
+
+    <div id="footer">
+      <div class="site">
+
+        <div class="info">
+          <div class="links">
+{% for item in site.nav %}
+            <a href="{{ item.url }}">{{ item.name }}</a>|
+{% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

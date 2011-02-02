@@ -1,12 +1,7 @@
-maruku:
-  use_tex:    true
-  use_divs:   false
-  png_dir:    images/latex
-  png_url:    /images/latex/
 pygments: true
 permalink:      /:categories/:title/
 
-title:          Alexander Vinokurov homepage
+title:          Alexander Vinokurov
 url:            http://alexander-vinokurov.com
 
 
@@ -17,4 +12,16 @@ nav:
     - name:     Resume
       url:      /resume/
 
+    - name:     Publications
+      url:      /publications/
 
+    - name:     Research
+      url:      /research/
+
+authors: {
+     vinokurov: {
+         name:    Alexander Vinokurov,
+         url:     http://alexander-vinokurov.com,
+         email:   alexander.a.vinokurov@gmail.com
+     }
+}
