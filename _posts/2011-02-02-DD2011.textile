@@ -4,7 +4,7 @@ title:     Days on Diffraction 2011 Announcement
 category:  announce
 ---
 
-30 May -- 3 June 2011 the annual conference "Days on Diffraction 2011":http://www.imi.ras.ru/~dd/ will take place in St.&nbsp;Petersburg, Russia.
+30 May -- 3 June 2011 the annual conference "Days on Diffraction 2011":http://www.imi.ras.ru/~dd/index.php will take place in St.&nbsp;Petersburg, Russia.
 
 The aim of the event is to bring together scientists working in the area of mathematical theory of waves' diffraction and propagation and researchers interested in application of various nature wave phenomena. We are always pleased to see active researchers from all over the world!
 
