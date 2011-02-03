@@ -27,7 +27,7 @@ h3. Affiliations
 
 Senior scientist, "Pulkovo Astronomical Observatory of the Russian Academy of Sciences":http://www.gao.spb.ru
 Senior scientist, "Saint-Petersburg State University of Aerospace Instrumentation":http://guap.ru
-Lecutrer, "Saint-Petersburg State University of Aerospace Instrumentation":http://guap.ru
+Lecturer, "Saint-Petersburg State University of Aerospace Instrumentation":http://guap.ru
 
 h3. Projects
 
